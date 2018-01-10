@@ -1,4 +1,12 @@
 <?php
+/**
+ * @package    vnstat-very-simple-php-frontend
+ * @author     Iranian Patriot <sunchi@bioid.ir>
+ * @copyright  2018 The PHP Group
+ * @license    https://www.gnu.org/licenses/gpl-3.0.en.html
+ * @version    Release: 1
+ */
+
 $command_remove_all_png = "rm *.png";
 $output = shell_exec("$command_remove_all_png");
 
