@@ -28,7 +28,10 @@ I did not meant to over complicate the code for easy modification, it is simple 
     sudo ps -f | grep vnst
     
 	2- Copy or Git the project to your webserver directory
-
+    cd /to/you/web/server/
+    git clone https://github.com/iranianpatriot/vnstat-very-simple-php-frontend.git
+    
+    
 	3- Don't forget to set permissions :
 	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
     
