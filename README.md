@@ -22,10 +22,11 @@ I did not meant to over complicate the code for easy modification, it is simple 
 	1- Install vnstat and vnstati and run their Deamons :
     
 	sudo apt-get install vnstat vnstati
-    vnstat -u -i eth0
+    sudo vnstat -u -i eth0
     sudo /etc/init.d/vnstat start
     (make sure they are work perfectly)
-
+    sudo ps -f | grep vnst
+    
 	2- Copy or Git the project to your webserver directory
 
 	3- Don't forget to set permissions :
