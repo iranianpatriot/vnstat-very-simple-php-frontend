@@ -29,4 +29,4 @@ I did not meant to complicate the code for easy modification.
     
 ## **ScreenShot**    
 
-![]({{site.baseurl}}/https://raw.githubusercontent.com/iranianpatriot/vnstat-very-simple-php-frontend/master/Screenshot.jpg)
+![](https://raw.githubusercontent.com/iranianpatriot/vnstat-very-simple-php-frontend/master/Screenshot.jpg)
