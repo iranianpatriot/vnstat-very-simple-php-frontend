@@ -27,17 +27,17 @@ $output = shell_exec("$command_sum");
 # echo  $command_sum."<br>";
 echo "<img src='$image_sum_file_name'/>";
 
-$command_day = "$vnstati_cmd  -d -i $iface -o $image_day_file_name";
-$output = shell_exec("$command_day");
-# echo $output."<br>";
-# echo  $command_day."<br>";
-echo "<img src='$image_day_file_name'/>";
-
 $command_hour = "$vnstati_cmd -h -i $iface -o $image_hour_file_name";
 $output = shell_exec("$command_hour");
 # echo $output."<br>";
 # echo  $command_hour."<br>";
 echo "<img src='$image_hour_file_name'/>";
+
+$command_day = "$vnstati_cmd  -d -i $iface -o $image_day_file_name";
+$output = shell_exec("$command_day");
+# echo $output."<br>";
+# echo  $command_day."<br>";
+echo "<img src='$image_day_file_name'/>";
 
 $command_month = "$vnstati_cmd  -m -i $iface -o $image_month_file_name";
 $output = shell_exec("$command_month");
