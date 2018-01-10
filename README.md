@@ -18,9 +18,13 @@ I did not meant to over complicate the code for easy modification, it is simple 
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-## **Installation**
-	1- Install vnstat and vnstati and run their Deamons
-	(make sure they are work perfectly)
+## **Debian Installation**
+	1- Install vnstat and vnstati and run their Deamons :
+    
+	sudo apt-get install vnstat vnstati
+    vnstat -u -i eth0
+    sudo /etc/init.d/vnstat start
+    (make sure they are work perfectly)
 
 	2- Copy or Git the project to your webserver directory
 
