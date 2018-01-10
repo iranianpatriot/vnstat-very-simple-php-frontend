@@ -2,7 +2,7 @@
 /**
  * @package    vnstat-very-simple-php-frontend
  * @author     Iranian Patriot <sunchi at bioid dot ir>
- * @copyright  2018 The PHP Group
+ * @copyright  2018 The Iranian Patriot Group
  * @license    https://www.gnu.org/licenses/gpl-3.0.en.html
  * @version    Release: 1
  */
