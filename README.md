@@ -1,6 +1,6 @@
 
 This is a very simple One file/One Page PHP frontend for Vnstat
-I did not meant to complicate the code for easy modification, it is simple and dirty as i like it. 
+I did not meant to over complicate the code for easy modification, it is simple and dirty as i like it. 
 
 
 ##  **The license notices**
