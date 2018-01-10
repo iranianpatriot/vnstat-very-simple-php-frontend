@@ -20,12 +20,12 @@ I did not meant to complicate the code for easy modification.
 
 -- Installation
 
-	1- Install vnstat and vnstati and run their Deamon
+	1- Install vnstat and vnstati and run their Deamons
 	(make sure they are work perfectly)
 
 	2- Copy the project to webserver directory
 
-	3- Dont forget :
+	3- Don't forget :
 	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
 
 
