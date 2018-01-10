@@ -31,7 +31,8 @@ I did not meant to over complicate the code for easy modification, it is simple 
     git clone https://github.com/iranianpatriot/vnstat-very-simple-php-frontend.git
     
     
-**3- Don't forget to set permissions :**	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
+**3- Don't forget to set permissions :**	
+	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
     
 ## **ScreenShot**    
 
