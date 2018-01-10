@@ -24,7 +24,7 @@ I did not meant to over complicate the code for easy modification, it is simple 
 
 	2- Copy or Git the project to your webserver directory
 
-	3- Don't forget :
+	3- Don't forget to set permissions :
 	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
     
 ## **ScreenShot**    
