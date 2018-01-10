@@ -22,7 +22,7 @@ I did not meant to over complicate the code for easy modification, it is simple 
 	1- Install vnstat and vnstati and run their Deamons
 	(make sure they are work perfectly)
 
-	2- Copy or Git the project to webserver directory
+	2- Copy or Git the project to your webserver directory
 
 	3- Don't forget :
 	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
