@@ -20,18 +20,21 @@ I did not meant to over complicate the code for easy modification, it is simple 
 
 ## **Debian Installation**
 **1- Install vnstat and vnstati and run their Deamons :**    
+
 	sudo apt-get install vnstat vnstati
     sudo vnstat -u -i eth0
     sudo /etc/init.d/vnstat start
     (make sure they are work perfectly)
     sudo ps -f | grep vnst
     
-**2- Copy or Git the project to your webserver directory**    
+**2- Copy or Git the project to your webserver directory**   
+
     cd /to/you/web/server/
     git clone https://github.com/iranianpatriot/vnstat-very-simple-php-frontend.git
     
     
-**3- Don't forget to set permissions :**	
+**3- Don't forget to set permissions :**
+
 	sudo chown www-data:www-data vnstat-very-simple-php-frontend -R
     
 ## **ScreenShot**    
